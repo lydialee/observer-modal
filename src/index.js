@@ -3,6 +3,7 @@ require('jquery')
 var laucher = $('#laucher'),
 	myModal = $('#myModal'),
 	closePop = myModal.find('.close')
+	console.log(closePop)
 
 // event binder
 laucher.on('click', function() {
@@ -10,7 +11,6 @@ laucher.on('click', function() {
 })
 
 closePop.on('click', function(e) {
-	console.log(e)
 	myModal.hide()	
 })
 

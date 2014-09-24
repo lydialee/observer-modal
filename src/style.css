@@ -10,8 +10,6 @@ html, body, section, p, button, h4{
 	background: #fff;
 	position: relative;
 	height: 700px;
-	/* 为什么图片不显示？ */
-	/*background: url('../../src/bg.jpg'); */
 	background-size: cover;
 	color: #333;
 }
